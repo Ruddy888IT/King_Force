@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    padding-top: 10px; /* Adjust according to your navigation height */
+}
+
+header {
+    background-color: #f8f9fa; /* Navbar background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    padding: 10px 15px;
+    font-size: 1rem;
+}
+
+.container {
+    margin-top: 35px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* Style for the home section */
+#home {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+
+/* Style for the about, products, and contact sections */
+#about, #products, #contact {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    body {
+        padding-top: 70px;
+    }
+}
+
+.custom-footer {
+    background-color: #343a40; /* Set your desired background color */
+    color: #ffffff; /* Set text color for better visibility */
+    text-align: center;
+    padding: 20px; /* Adjust as needed */
+    border-top: 1px solid #ffffff; /* Optional: Add a border to separate content */
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+}
+
+.aos-animate .custom-footer {
+    opacity: 1;
+}
